@@ -1,0 +1,33 @@
+{
+  "name": "microservice-boilerplate",
+  "version": "0.0.1",
+  "description": "ECMAScript 2018 rest boilerplate with express",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvainlap/microservice-boilerplate.git"
+  },
+  "keywords": [
+    "microservice",
+    "rest",
+    "boilerplate",
+    "express"
+  ],
+  "author": "@sylvainlap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sylvainlap/microservice-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sylvainlap/microservice-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
