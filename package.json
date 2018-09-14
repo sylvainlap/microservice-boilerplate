@@ -4,8 +4,12 @@
   "description": "ECMAScript 2018 rest boilerplate with express",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
-    "dev": "nodemon --inspect ./src/index.js"
+    "dev": "nodemon --inspect ./src/index.js",
+    "docs": "apidoc -i src/ -o docs/",
+    "lint": "eslint ./src/",
+    "precommit": "npm run lint",
+    "prestart": "npm run docs",
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,7 @@
   },
   "homepage": "https://github.com/sylvainlap/microservice-boilerplate#readme",
   "devDependencies": {
+    "apidoc": "^0.17.6",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
