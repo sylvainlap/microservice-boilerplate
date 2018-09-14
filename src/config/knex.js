@@ -2,9 +2,9 @@ const knex = require('knex');
 
 const { pgUri } = require('./vars');
 
-const db = knex({
+const dbInstance = knex({
   client: 'pg',
   connection: pgUri,
 });
 
-module.exports = db;
+module.exports = dbInstance;
