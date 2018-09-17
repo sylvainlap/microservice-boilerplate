@@ -96,4 +96,4 @@ npm run docs
 
 ## License
 
-[MIT License](README.md) - [Daniel Sousa](https://github.com/danielfsousa)
+[MIT License](README.md)
