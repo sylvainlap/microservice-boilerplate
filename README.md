@@ -7,7 +7,7 @@ Boilerplate/Starter Project for building RESTful APIs and microservices using No
 ## Features
 
 - No transpilers, just vanilla javascript
-- ES2017 latest features like Async/Await
+- ES2017 latest features like async/await
 - CORS enabled
 - Express + Knex
 - Uses [helmet](https://github.com/helmetjs/helmet) to set some HTTP headers for security
@@ -18,6 +18,7 @@ Boilerplate/Starter Project for building RESTful APIs and microservices using No
 - Code coverage with [istanbul](https://istanbul.js.org) and [coveralls](https://coveralls.io)
 - Logging with [morgan](https://github.com/expressjs/morgan)
 - Authentication and Authorization with [passport](http://passportjs.org)
+- Redis-based queue with [Bull](https://github.com/OptimalBits/bull)
 - API documentation geratorion with [apidoc](http://apidocjs.com)
 
 ## Requirements
