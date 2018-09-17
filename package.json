@@ -2,7 +2,12 @@
   "name": "microservice-boilerplate",
   "version": "0.0.1",
   "description": "ECMAScript 2018 rest boilerplate with express",
+  "author": "@sylvainlap",
   "main": "src/index.js",
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "dev": "nodemon --inspect ./src/index.js",
     "docs": "apidoc -i src/ -o docs/",
@@ -21,19 +26,6 @@
     "boilerplate",
     "express"
   ],
-  "author": "@sylvainlap",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sylvainlap/microservice-boilerplate/issues"
-  },
-  "homepage": "https://github.com/sylvainlap/microservice-boilerplate#readme",
-  "devDependencies": {
-    "apidoc": "^0.17.6",
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "nodemon": "^1.18.4"
-  },
   "dependencies": {
     "compression": "^1.7.3",
     "cors": "^2.8.4",
@@ -42,6 +34,16 @@
     "helmet": "^3.13.0",
     "knex": "^0.15.2",
     "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "pg": "^7.4.3"
-  }
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.6",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.4"
+  },
+  "license": "MIT"
 }

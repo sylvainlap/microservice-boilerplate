@@ -1,8 +1,11 @@
-FROM node:8.12
+FROM node:8.12.0
+
+RUN mkdir -p /app
 
 WORKDIR /app
 
-COPY package.json /app/
+ADD package.json package-lock.json /app/
+
 RUN npm install
 
 COPY . /app/
